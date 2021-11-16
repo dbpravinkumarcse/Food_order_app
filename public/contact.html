@@ -116,18 +116,18 @@ we are there for you. Feel free to contact.</p>
 
 
   <!-- Footer -->
-  <footer class="text-center text-lg-start  text-muted"  style="background-color: #38acec;font-weight:bolder;">
+  <footer class="text-center text-lg-start  text-muted" style="background-color: #38acec;font-weight:bolder;">
     <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
-      <div class="me-5 d-none d-lg-block " style="padding-left:8%;" >
+      <div class="me-5 d-none d-lg-block " style="padding-left:8%;">
         <span class="text-light">Get connected with us on social networks:</span>
       </div>
       <!-- Left -->
 
       <!-- Right -->
       <div style="padding-right:8%;">
-        <a href="https://m.facebook.com/quantanics.in/posts" class="me-4 text-reset" >
+        <a href="https://m.facebook.com/quantanics.in/posts" class="me-4 text-reset">
           <i class="fab fa-facebook-f text-light"></i>
         </a>
         <a href="https://twitter.com/quantanics_in" class="me-4 text-reset">
@@ -161,9 +161,12 @@ we are there for you. Feel free to contact.</p>
               Quantanics Techserv Pvt Ltd.
             </h6>
             <p class="text-light" style="text-align:justify">
+            <img src="./indexpageimages/img4.jpg" alt="" style="width:90%;">
+            </div>
+          <!--
               Quantanics was founded in 2018 by a group of young and rejuvenated engineers who wanted to prove their stand in Industry 4.0 by making this world a better place to live.
-                Today, Quantanics has established a distinguished reputation by successfully developing intelligent devices and products for several industrial giants and MNCs.</p>
-          </div>
+              Today, Quantanics has established a distinguished reputation by successfully developing intelligent devices and products for several industrial giants and MNCs.</p>
+           -->
           <!-- Grid column -->
 
           <!-- Grid column -->
@@ -215,17 +218,44 @@ we are there for you. Feel free to contact.</p>
               Contact
             </h6>
             <p class="text-light"><i class="fas fa-home me-3 text-light"></i>No.206,Vellaikannu Nagar,<br>
-              <i class="fas fa-envelope me-3 " style="color: #38acec;"></i>Theni main road,<br><i class="fas fa-envelope me-3 " style="color: #38acec;"></i>Madurai-625016,India.</p>
+              <i class="fas fa-envelope me-3 " style="color: #38acec;"></i>Theni main road,<br><i class="fas fa-envelope me-3 " style="color: #38acec;"></i>Madurai-625016,India.
+            </p>
             <p class="text-light">
               <i class="fas fa-envelope me-3 text-light"></i>
               support@quantanics.in
             </p>
-            <p class="text-light"><i class="fas fa-phone me-3 text-light"></i>+91 8217593617 </p>
-            <p class="text-light"><i class="fas fa-print me-3 text-light"></i>+91 8681001680</p>
+            <p class="text-light"><i class="fas fa-phone me-3 text-light"></i>+91 7010897188 </p>
           </div>
           <!-- Grid column -->
         </div>
         <!-- Grid row -->
+
+
+        <!--chatbot--->
+
+        <a class="btn btn-light text-dark chat" onclick="show()" role="button">Let's Start a convo with us!</a>
+
+        <div id="box">
+          <div class="top">
+            <h1>Ask your Question??<div class="button1"><button onclick="show()"><i class="fa fa-times"></i></button> &emsp;</div>
+            </h1>
+          </div>
+          <div class="mid">
+            <div class="chat">
+              <h2>Answer for your questions are below.....</h2>
+              <p id="chatLog">let's chat</p>
+            </div>
+          </div>
+          <div class="input">
+            <input id="userBox" type="text" autocomplete="off" onkeydown="if (event.keyCode == 13) {talk()}" placeholder="type your questions">
+
+            <button class="button" onclick="talk()"><i style="font-size: 25px;" class="fa fa-paper-plane"></i></button>
+          </div>
+        </div>
+
+
+
+
       </div>
     </section>
     <!-- Section: Links  -->
@@ -233,12 +263,15 @@ we are there for you. Feel free to contact.</p>
     <!-- Copyright -->
     <div class="text-center p-4 text-light" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2021 Copyright:
-      <a class="text-reset fw-bold text-light" href="www.quantanics.in" style="text-decoration:none;">Quantanics TechServ Pvt Ltd,. All Rights Reserved. </a>
+      <a class="text-reset fw-bold text-light" href="www.quantanics.in" style="text-decoration:none;">Quantanics TechServ Pvt Ltd,. All Rights Reserved.</a>
+      <a class="text-center p-4 text-light" href="privacy.html" style="text-decoration:underline;">    Privacy Policy.  </a>
+      <a class="text-center p-4 text-light" href="refund.html" style="text-decoration:underline;">    Refund Policy. </a>
+      <a class="text-center p-4 text-light" href="t&c.html" style="text-decoration:underline;">    Terms and Conditions.  </a>
+
     </div>
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-
 
 
 
